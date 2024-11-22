@@ -1,4 +1,5 @@
-![Captura de Tela 2024-11-21 às 17 46 28](https://github.com/user-attachments/assets/56d4d6d3-0c97-4975-9f56-089a138002e9)
+![Captura de Tela 2024-11-21 às 17 46 28](https://github.com/user-attachments/assets/2bfc3d65-5b06-41fb-a67d-21ab6d59c53a)
+
 ### Descrição
 Este projeto web utiliza a API da OpenWeatherMap para fornecer informações detalhadas sobre a previsão do tempo para qualquer cidade do mundo. O usuário pode inserir o nome da cidade e obter dados como temperatura, umidade, condição do tempo e muito mais.
 
