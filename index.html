@@ -23,7 +23,18 @@
   </head>
   <body>
     <div class="caixa-maior">
-      <input class="cidade" id="cidade" placeholder="Cidade" onload="buscarCidade" />
+      <input class="cidade" id="cidade" placeholder="Cidade">
+      <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const inputCidade = document.querySelector('.cidade');
+          inputCidade.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                  lupa();
+              }
+          });
+      });
+      </script>
+      </body>
       <button class="lupa" onclick="lupa()">
         <i class="bx bx-search"></i>
       </button>
